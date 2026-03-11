@@ -1,6 +1,6 @@
 FROM tomcat:9.0
 
-COPY Web_Application/web /usr/local/tomcat/webapps/ROOT
+COPY dist/Web_Application.war /usr/local/tomcat/webapps/
 
 EXPOSE 8080
 
